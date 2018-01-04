@@ -1,0 +1,201 @@
+*{margin: 0;padding: 0;}
+.main{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.left{float: left;}
+.right{float: right;}
+.clear{clear: both;}
+ul{list-style-type: none;}
+a{text-decoration: none;font-size: 12px;}
+body{font-size: 100%;}
+.toubu{
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    height: 100px;
+    background:black;
+    text-align: center;
+    top: 0;
+    opacity: 0.9;
+    }
+		.logo{width: 10%;
+		height: 5%;
+		margin-top: 15px;
+		}
+		.nr{margin-left: -40px;}
+		.nr a{color: gray;
+		     padding-left: 10%;
+		     }
+		     .nr a:hover{
+		     	color: white;
+		     }
+		     
+	      /*广告*/
+			.zt1{width:400%;height: 675px;
+				position: relative;}
+		    .zt1 img{width: 25%;}
+	       
+	      
+	       .zt{
+	       	  	width:100%;
+	       	height: 675px;
+	       	overflow: hidden;
+	       	position:relative;
+	       	margin: 150px auto 100px;
+	       	
+	       } 
+	 
+	     
+	
+	    .qq ul{
+	      position: absolute;
+	      bottom: 0;
+	      margin:0;
+	      padding:0;
+	      height: 20px;
+	      width: 100%;
+	      text-align: center;
+	    }
+	    .uu li{
+	    float:left;
+	  	display: inline-block;
+	    width: 25%;
+	    height:20px;
+	   
+	    background: gray;
+	    color: white;
+	    
+	    }
+	    /*.aa div{
+	    	width:20px;
+	    	height: 20px;
+	    	border-radius: 50%;
+	    	background: red;
+	    	color: black;
+	    	display: inline-block;
+	    	line-height: 20px;
+	    	text-align: center;
+	    
+	    	
+	    }
+	    .aa{
+	    	position: absolute;
+	    	z-index: 99;
+	    }
+	    a{
+	    		text-decoration: none;
+	    }*/
+	     .zt1:hover{
+	    	 	animation: xx1 8s infinite ;
+	    }
+	   
+	      @keyframes xx1{
+	    	0%{left: 0;}
+	    	5%{left: 0;}
+	    	
+	    	15%{left:-100%;}
+	    	40%{left:-100%;}
+	    	
+	    	55%{left:-200%;}
+	    	70%{left:-200%;}
+	    	
+	    	85%{left:-300%;}
+	    	100%{left:-300%;}
+	    	
+	    }
+	    		     
+.p{
+	width:100%;
+	border-top: 1px solid gainsboro;
+	border-bottom: 1px solid gainsboro;
+	padding: 30px 0;
+	font-size: 1.2vw;
+	line-height: 1.5vw;
+	color: #666666;
+	text-indent: 2em;
+	
+	}    
+	.i{text-align: center;
+	margin-top: 2%;}
+	.i img{
+		width: 5%;
+		height: 4%;
+		padding-left:1%;
+	}  
+.zy{
+	width: 100%;
+	height: auto;
+}
+.aaa{display: inline-block;
+	width: 25%;
+	height: 15vw;
+	background: white;
+	text-align: center;
+	border-radius: 10%;
+
+
+}
+.zy a {margin-bottom: 2vw;}
+.zj{
+	margin: 0 12.5%;
+}
+.p1{color: #000000;}
+.aaa img{width: 100%;
+border-top-right-radius: 10%;
+border-top-left-radius: 10%;
+}
+
+
+.footer{width: 100%;
+height:15vw;
+background: gainsboro;
+padding: 10px 0;
+}
+.tl,.ty{width: 50%;
+height: 90%;
+
+}
+.ty p{color: gray;}
+.ty img{width: 20%;
+height: 20%;}
+.tl{border-right: 1px solid grey;
+box-sizing: border-box;
+margin-left: -1%;}
+.tl img{width: 2vw;
+height: 2vw;float:right;margin-right: 1vw;}
+
+
+	@media only screen and (max-width:600px )  {
+			.aaa{float: none;}
+			.t2{margin: 0;}
+			.zy a:nth-child(2n+1){ width: 40%;height:30vw;float: left;}
+			.zy a:nth-child(2n+2){ width: 40%;height:30vw;float: right;}
+			
+			
+			
+				}
+.zy a{position: relative;
+}	
+		
+.ww{width: 100%;
+height: 85%;background: gray;
+position:absolute ;
+border-top-right-radius: 10%;
+border-top-left-radius: 10%;
+opacity: 0.4;
+display: none;
+line-height: 85%;
+font-size: 2vw;
+color:#FFFFFF !important;
+text-align: center;
+
+}
+
+ .zy a:hover .ww{
+	display: block;
+}
+
+
